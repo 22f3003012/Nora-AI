@@ -1,4 +1,5 @@
 from langchain.embeddings import HuggingFaceBgeEmbeddings
+from langchain_groq import ChatGroq
 from langchain.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
