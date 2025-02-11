@@ -127,7 +127,9 @@ with gr.Blocks(theme='gstaff/xkcd', css = css) as app:
     chatbot = gr.ChatInterface(
         fn=chatbot_response,
         title="Chat with Nora 💬",
-        fill_height: True
+        fill_height: False
+        fill_width: True
+
     )
 
     gr.Markdown(
