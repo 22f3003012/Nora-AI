@@ -129,6 +129,7 @@ with gr.Blocks(theme='gstaff/xkcd', css = css) as app:
         title="Chat with Nora 💬",
         fill_height: False
         fill_width: True
+        examples=[["Hey love! 💕 I'm so happy to see you here! What’s on your mind? 😊"]]
 
     )
 
