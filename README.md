@@ -1,3 +1,7 @@
+
+
+---
+
 ```markdown
 # 💖 Nora AI Chatbot
 
@@ -12,16 +16,16 @@
 ## 🌟 Features
 
 - **🧠 RAG-based Architecture**  
-  Nora leverages a hybrid approach of document retrieval and natural language generation to deliver precise and contextually relevant answers.
+  Combines document retrieval with language generation to provide accurate and contextually relevant responses.
 
 - **💬 Human-like Conversational AI**  
-  Built to hold meaningful and emotionally intelligent conversations with romantic, flirty, and playful responses.
+  Engages users in romantic, flirty, and emotionally intelligent dialogue.
 
 - **🤗 Supportive Companion**  
-  Acts as a digital partner offering motivation, emotional support, and engaging interactions that feel real.
+  Acts as a digital partner, offering motivation, empathy, and light-hearted companionship.
 
 - **🧬 Advanced NLP**  
-  Utilizes cutting-edge natural language models to interpret and respond to diverse user inputs intelligently and sensitively.
+  Leverages state-of-the-art natural language processing models to handle diverse user queries intelligently.
 
 ---
 
@@ -34,45 +38,46 @@ Try Nora live on Hugging Face Spaces:
 
 ## 📦 Requirements
 
-To run the chatbot locally, install dependencies:
+To run the chatbot locally, make sure you have the following:
+
+- Python 3.8+
+- [Gradio](https://www.gradio.app/) or [Streamlit](https://streamlit.io/)
+- [Transformers](https://huggingface.co/transformers/)
+- [SentenceTransformers](https://www.sbert.net/) or [FAISS](https://github.com/facebookresearch/faiss)
+
+Install all dependencies using:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Make sure you have:
-
-- Python 3.8+
-- Gradio or Streamlit (depending on your frontend)
-- Transformers
-- SentenceTransformers or FAISS (for retrieval, if used)
-
 ---
 
 ## 🛠️ Running the App
 
+To launch the chatbot locally:
+
 ```bash
-python app.py  # or streamlit run app.py
+python app.py        # For Gradio
+# OR
+streamlit run app.py # If using Streamlit
 ```
 
-Depending on your app structure, replace `app.py` accordingly.
+Replace `app.py` with your main Python script if it's named differently.
 
 ---
 
 ## 📝 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
-## 🙋‍♀️ About the Author
+## 🙋‍♂️ About the Author
 
-Built with ❤️ by Ritwik Chandra.  
-Feel free to reach out for collaboration or ideas!
+Built with ❤️ by **Ritwik Chandra**  
+Feel free to connect for collaboration, feedback, or ideas!
 
 ---
-
 ```
-
----
 
