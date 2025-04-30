@@ -1,7 +1,3 @@
-Here's a professional and well-structured `README.md` for your **Nora AI Chatbot** GitHub repository, including all the details and the Hugging Face link:
-
----
-
 ```markdown
 # 💖 Nora AI Chatbot
 
